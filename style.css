@@ -1,0 +1,26 @@
+#header{
+    height: 170px;
+    background: url("images/header-bg.gif") top left repeat-x;
+    background-position-x: 0px;
+    background-position-y: -5px;
+}
+#header-banner{
+    background: url('images/header-stripe.png') top left repeat-x;
+    height: 170px;
+}
+#work{
+    position: relative;
+    margin-top: 4px;
+    margin-left: 15px;
+    width: 47px;
+    height: 57px;
+    background-image: url(/images/header-links-work.png);
+}
+a{
+    color: red;
+}
+
+
+
+
+
