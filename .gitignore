@@ -1,0 +1,18 @@
+ntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+ 
+### Linux ###
+.*
+!.gitignore
+*~
+ 
+### Java ###
+*.class
+ 
+# Package Files #
+*.jar
+*.war
+*.ear
