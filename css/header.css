@@ -1,0 +1,71 @@
+header {
+    height: auto;
+    text-align: justify;
+    padding: 0 5%;
+    background: url("../images/header-bg.gif") top left repeat;
+}
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+header > .title-wrap,
+header .title,
+header nav {
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+header > .title-wrap {
+    height: 100%;
+}
+
+header > .title-wrap::before {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    content: '';
+    height: 100%;
+}
+
+header .title {
+    font-size: 3em;
+    font-style: italic;
+    text-transform: uppercase;
+    color: beige;
+}
+
+header nav a {
+    padding: 0 0.6em;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: coral;
+}
+
+header nav a:last-child {
+    padding-right: 0;
+}
+
+
+@media screen and (min-width: 840px) { /*for desktop*/
+    header {
+        height: 170px;
+    }
+
+    header .title-wrap,
+    header .title-wrap .title,
+    header nav {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+    }
+}
